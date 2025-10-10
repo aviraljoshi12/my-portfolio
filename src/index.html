@@ -506,7 +506,8 @@
         <div class="w-full">
           <img src="./assets/images/contact-me.svg" alt="phone" />
         </div>
-        <form class="w-full" name="contact" netlify">
+        <form class="w-full" name="contact" method="POST" data-netlify="true"">
+          <input type="hidden" name="form-name" value="contact" />
           <label
             for="name"
             class="block mb-2 text-sm font-medium text-white"
