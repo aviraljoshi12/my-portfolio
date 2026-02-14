@@ -1,3 +1,21 @@
 #wrapper-canvas canvas {
   max-width: 100%;
 }
+
+.modal-open section:not(#aboutMeModal) {
+  pointer-events: none;
+}
+
+.modal-open section {
+  pointer-events: auto;
+}
+
+#aboutMeModal {
+  pointer-events: auto;
+}
+
+.modal-open {
+  overflow: hidden;
+  height: 100vh;
+  touch-action: none;
+}
