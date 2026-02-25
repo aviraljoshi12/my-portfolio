@@ -315,13 +315,186 @@
       >
         My Works
       </h2>
+
       <div class="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative">
         <div
-          class="h-[1px] left-1/4 right-1/2 bg-[#fbd115] absolute top-1/2 hidden sm:block"
+          class="h-[1px] left-1/4 right-1/2 bg-[#FFD60A] absolute top-1/2 hidden sm:block"
         ></div>
 
         <div
-          class="w-4 h-4 rounded-full border-[3px] border-[#fbd115] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+          class="w-4 h-4 rounded-full border-[3px] border-[#FFD60A] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+        ></div>
+
+        <a
+          href="https://pipeline-builder-xlu8.vercel.app/"
+          target="_blank"
+          class="flex w-full relative justify-center sm:justify-start"
+        >
+          <div class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
+            <img
+              class="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(255,214,10,0.35)]"
+              src="./assets/images/pipeline-builder.webp"
+              alt=""
+            />
+            <span
+              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#FFD60A] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+              >Visual Pipeline Builder
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+
+            
+          </div>
+        </a>
+
+        <div class="w-full">
+          <h3 class="text-[#FFD60A] font-bold text-2xl md:text-4xl">
+            Visual Pipeline Builder
+          </h3>
+          <span class="text-[#FFD60A] text-base md:text-lg ">(Node-based workflow editor)</span>
+          <p class="text-justify text-sm md:text-base mt-2">
+Built a drag-and-drop pipeline builder using React Flow and FastAPI that enables users to visually create workflows with reusable nodes. The system validates pipelines by detecting cycles and determining DAG structure through backend analysis.
+</p>
+
+<p class="text-xs text-gray-400 mt-1">
+⚠ Backend may take ~20 seconds on first load due to cold start on free hosting.
+</p>
+
+
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #ReactFlow
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Zustand
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Node_Architecture
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Graph_Processing
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #DAG_Validation
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #FastAPI
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #System_Design
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Workflow_Builder
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
+        <div class="order-2 sm:order-1 w-full">
+          <h3 class="text-[#22D3EE] font-bold text-2xl md:text-4xl">COI Insurance Management Dashboard</h3>
+          <span class="text-[#22D3EE] text-base md:text-lg">(TMDB API Explorer)</span>
+          <p class="text-justify text-sm md:text-base mt-2">
+            Built a responsive insurance certificate management dashboard that enables tracking, reviewing, and managing COIs for properties and tenants. The system includes advanced filtering, inline editing, bulk actions, and data persistence to streamline compliance workflows.
+
+          </p>
+
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #React.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Dashboard_UI
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #State_Management
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #CRUD_Operations
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Data_Filtering
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #LocalStorage
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Responsive_Design
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
+              #Enterprise_UI
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="h-[1px] left-1/2 right-1/4 bg-[#22D3EE] absolute top-1/2 hidden sm:block"
+        ></div>
+        <div
+          class="w-4 h-4 rounded-full border-[3px] border-[#22D3EE] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+        ></div>
+
+        <a
+          href="https://coi-review-dashboard-jet.vercel.app/dashboard"
+          target="_blank"
+          class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
+        >
+          <div
+            class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto"
+          >
+           <img
+              class="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(34,211,238,0.35)]"
+              src="./assets/images/coi.webp"
+              alt=""
+            />
+            <span
+              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#22D3EE] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                >COI Dashboard
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+           
+          </div>
+        </a>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative">
+        <div
+          class="h-[1px] left-1/4 right-1/2 bg-[#8B5CF6] absolute top-1/2 hidden sm:block"
+        ></div>
+
+        <div
+          class="w-4 h-4 rounded-full border-[3px] border-[#8B5CF6] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
 
         <a
@@ -331,12 +504,12 @@
         >
           <div class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
             <img
-              class="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(251,209,21,0.4)]"
+              class="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(139,92,246,0.35)]"
               src="./assets/images/global-data-explorer.webp"
               alt=""
             />
             <span
-              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#fbd115] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#8B5CF6] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
               >Global Data Explorer
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -363,10 +536,10 @@
         </a>
 
         <div class="w-full">
-          <h3 class="text-[#fbd115] font-bold text-2xl md:text-4xl">
+          <h3 class="text-[#8B5CF6] font-bold text-2xl md:text-4xl">
             Global Data Explorer
           </h3>
-          <span class="text-[#fbd115] text-base md:text-lg ">(Country Data Viewer)</span>
+          <span class="text-[#8B5CF6] text-base md:text-lg ">(Country Data Viewer)</span>
           <p class="text-justify text-sm md:text-base mt-2">
             Developed a fully responsive data explorer using Pure Vanilla
             JavaScript, demonstrating mastery of REST API fetching for listing,
@@ -403,63 +576,43 @@
               #Event_Handling
             </li>
             <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #figma
+              #Figma
             </li>
           </ul>
         </div>
       </div>
       <div class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
         <div class="order-2 sm:order-1 w-full">
-          <h3 class="text-[#286a84] font-bold text-2xl md:text-4xl">Movix</h3>
-          <span class="text-[#286a84] text-base md:text-lg">(TMDB API Explorer)</span>
-          <p class="text-justify text-sm md:text-base mt-2">
-            Built a dynamic, responsive Movie & TV Show exploration platform
-            using React and Redux Toolkit. Features include real-time trending
-            data fetching from the TMDB API, dynamic filtering (Day/Week), a
-            dedicated search results page, and a detailed view for media with
-            trailers, cast, ratings, and recommendations.
-          </p>
+  <h3 class="text-[#22C55E] font-bold text-2xl md:text-4xl">Corporate Card Dashboard</h3>
+  <span class="text-[#22C55E] text-base md:text-lg">(Fintech Asset Management)</span>
+  <p class="text-justify text-sm md:text-base mt-2">
+    Developed a high-performance Fintech dashboard for managing corporate credit cards. 
+    Built with a focus on seamless user experience, featuring Infinite Scrolling using 
+    the Intersection Observer API, advanced real-time server-side filtering, and a tabbed 
+    interface for asset categorization. Optimized to handle complex pagination logic and 
+    ensure smooth data rendering.
+  </p>
 
-          <ul class="flex flex-wrap gap-2 mt-2">
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #javascript
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #react.js
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #Redux_Toolkit
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #SCSS_Styling
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #Lazy_Loading
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #State_Management
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #Custom_Hooks
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #TMDB_API
-            </li>
-            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">
-              #figma
-            </li>
-          </ul>
-        </div>
+  <ul class="flex flex-wrap gap-2 mt-2">
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#React.js</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#TailwindCSS</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Infinite_Scroll</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#State_Management</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#API_Optimization</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#IntersectionObserver</li>
+    <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Responsive_Design</li>
+  </ul>
+</div>
 
         <div
-          class="h-[1px] left-1/2 right-1/4 bg-[#286a84] absolute top-1/2 hidden sm:block"
+          class="h-[1px] left-1/2 right-1/4 bg-[#22C55E] absolute top-1/2 hidden sm:block"
         ></div>
         <div
-          class="w-4 h-4 rounded-full border-[3px] border-[#286a84] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+          class="w-4 h-4 rounded-full border-[3px] border-[#22C55E] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
         ></div>
 
         <a
-          href="https://movix-azure-iota.vercel.app/"
+          href="https://card-dashboard-sage.vercel.app/"
           target="_blank"
           class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
         >
@@ -467,13 +620,13 @@
             class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto"
           >
            <img
-              class="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(40,106,32,0.4)]"
-              src="./assets/images/movix.webp"
+              class="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(34,197,94,0.35)]"
+              src="./assets/images/card-dashboard.webp"
               alt=""
             />
             <span
-              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#286a84] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
-                >Movix
+              class="flex group-hover:-top-14 duration-300 ease-[cubic-bezier(0.68, -0.55, 0.265, 1.55)] bg-[#22C55E] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                >Corporate Card Dashboard
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
